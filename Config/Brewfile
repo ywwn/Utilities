@@ -1,0 +1,60 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "zackelia/formulae"
+# Application for idling Steam cards from multiple accounts simultaneously
+brew "archi-steam-farm"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Light UNIX download accelerator
+brew "axel"
+# Rule-based tunnel in Go
+brew "clash"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Perl lib for reading and writing EXIF metadata
+brew "exiftool"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
+# GIF image/animation creator/editor
+brew "gifsicle"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# Lightweight PDF and XPS viewer
+brew "mupdf-tools"
+# Adds an OCR text layer to scanned PDF files
+brew "ocrmypdf"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# TCP connect to the given IP/port combo
+brew "tcping"
+# Traceroute implementation using TCP packets
+brew "tcptraceroute"
+# Dumb downloader that scrapes the web
+brew "you-get"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# macOS command-line utility to limit max battery charge
+brew "zackelia/formulae/bclm"
+# Virtual Audio Driver
+cask "blackhole-2ch"
+cask "displaycal"
+# Mind mapping and knowledge management software
+cask "freeplane"
+# Password manager app
+cask "keepassxc"
+# Text editor
+cask "macvim"
+# Media player based on MPlayer and mplayer2
+cask "mpv"
+# Thumbnails, static previews, cover art and metadata for video files
+cask "qlvideo"
+# Lossless audio decoder
+cask "xld"

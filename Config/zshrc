@@ -1,0 +1,13 @@
+alias c="clear"
+alias ff="ffmpeg -y -hide_banner"
+alias bup="brew upgrade -v && brew cleanup"
+alias bout="brew update && brew outdated"
+alias smc="sudo powermetrics --samplers smc"
+alias rsync="rsync -avh --progress"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export LANG=en_US.UTF-8
+export LC_CTYPE="en_US.UTF-8"
+export GPG_TTY=$(tty)
+export EDITOR="/usr/local/bin/mvim"
+setopt no_nomatch
